@@ -1,0 +1,14 @@
+$fuente1: 'Oswald', sans-serif;
+$fuente2: 'Work Sans', sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $fuente1;
+    background-color: $primary-color;
+}
+
