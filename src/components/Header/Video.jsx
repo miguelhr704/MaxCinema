@@ -28,9 +28,9 @@ function Video() {
           height="100%"
           src="https://www.youtube.com/embed/QfYgcLuxS5Y?controls=0&autoplay=1&mute=1&playlist=QfYgcLuxS5Y&loop=1"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen="1"
+          allowfullscreen
+          frameborder="0"
         ></iframe>
       </div>
     </>

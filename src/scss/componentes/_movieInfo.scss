@@ -9,6 +9,8 @@
         margin-left: 0;
         width: 100%;
     }
+    position: absolute;
+    z-index: 1;
     width: 80%;
     max-width: 715px;
     display: flex;
@@ -17,6 +19,7 @@
     align-items: center;
     margin-top: 148px;
     margin-left: 42px;
+    z-index: 1;
     .movieInfo__imgCont{
         @include media(desktop-m){
             width: 424px;

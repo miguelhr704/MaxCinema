@@ -2,16 +2,15 @@
     width: 100%;
     height: auto;
     background-color: $transparent;
-    z-index: -1;
     
     .header__video{
-        position: absolute;
-        z-index: -1;
+        z-index: 0;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%;
         opacity: .5;
-        background-color: $primary-color;
+        background:none;
         .video{
             display: block;
             height: 200%;
@@ -25,7 +24,7 @@ iframe {
     left: 50%;
     width: 100vw;
     height: 100vh;
-    transform: translate(-50%, -12%);
+    transform: translate(-50%, -13%);
   }
 
 @media (min-aspect-ratio: 16/9) {
