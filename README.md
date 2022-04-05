@@ -1,7 +1,7 @@
-#Install SASS dependece
-$ npm install sass
-# or
-$ yarn add sass
+# Install SASS dependece
+ npm install sass
+ or
+ yarn add sass
 
 # Getting Started with Create React App
 
