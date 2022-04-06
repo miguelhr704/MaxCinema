@@ -17,7 +17,7 @@ function NavBar2() {
   };
   return (
     <>
-      <nav className={navbar2 ? "navBar2 active" : "navBar2"}></nav>
+      <nav className="navBar2"></nav>
     </>
   );
 }
