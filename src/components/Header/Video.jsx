@@ -29,8 +29,7 @@ function Video() {
           src="https://www.youtube.com/embed/QfYgcLuxS5Y?controls=0&autoplay=1&mute=1&playlist=QfYgcLuxS5Y&loop=1"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          frameborder="0"
+          frameBorder="0"
         ></iframe>
       </div>
     </>
