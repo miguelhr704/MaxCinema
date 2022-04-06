@@ -10,5 +10,10 @@ $fuente2: 'Work Sans', sans-serif;
 body{
     font-family: $fuente1;
     background-color: $primary-color;
+    color: $just-White;
 }
 
+.app{
+    display: flex;
+    flex-direction: column;
+}

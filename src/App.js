@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Header from "./components/Header/Header";
 import { useEffect } from "react";
+import MoviesGrid from "./components/MovieGrid/MoviesGrid";
 function App() {
 
   useEffect(()=>{
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <MoviesGrid />
     </div>
   );
 }

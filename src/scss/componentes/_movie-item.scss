@@ -1,0 +1,45 @@
+.movieItem{
+    scroll-snap-align: center;
+    width: 212px;
+    height: 315px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: $primary-color;
+    transition: .5s;
+    margin-right: 24px;
+    min-width: 212px;
+    position: relative;
+    .movieItem__enlace-img{
+        width: 100%;
+        height: auto;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    
+    .movieItem__enlace-text{
+        width: 100%;
+        font-family: "Work Sans", sans-serif;
+        position: absolute;
+        top: -18px;
+        text-align: center;        
+        background: linear-gradient(0deg, rgba(2,0,36,0.7959558823529411) 4%, rgba(255,255,255,0) 45%);
+        height: 333px;
+        padding-top: 257px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .5s;
+        &:hover{
+            background: linear-gradient(0deg, rgba(2, 0, 36, 0.7959558824) 65%, rgba(255, 255, 255, 0) 100%);
+        }
+    }
+    :hover{
+        cursor: pointer;
+    }
+}
+
+   
+    
+
+

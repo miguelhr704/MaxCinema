@@ -1,0 +1,33 @@
+.moviesGrid{
+    display: flex;
+    flex-direction: column;
+    padding-left: 42px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.moviesGrid__titulo{
+    font-family: $fuente1;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 14px;
+}
+
+.moviesGrid__container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    /* width */
+&::-webkit-scrollbar {
+    width: 4px;
+  }
+ 
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $secondary-color;
+    border-radius: 8px;
+  }
+}
